@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .border{
     border: solid;
     
@@ -5,4 +9,72 @@
 }
 .font{
     font-size: 50px;
+}
+.screem{
+    height: 100vh;
+}
+.widhtFull{
+    width: 100%;
+}
+.heightFull{
+    height: 100%;
+}
+.cardPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cardPrincipal_Titulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardPrincipal_Descripcion{
+    font-size: 3.5em;
+    font-weight: 600;
+}
+.textAzure{
+    color: azure;
+}
+.textOrange{
+    color: rgb(248, 130, 41);
+}
+.bold{
+    font-weight: 900;
+}
+.semiBold{
+    font-weight: 600;
+    
+}
+/* posible cambion de propiedad del 10% */
+.button{
+    margin-bottom: 10%;
+}
+.button button{
+    background-color: rgb(248, 130, 41);
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+}
+.positionRel{
+    position: relative;
+}
+.positionAbs{
+    position: absolute;
+}
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 0;
+}
+.bg_image{
+    background-image: url(./Images/PizzaPlaneta.jpg);
+    background-size: contain;
 }

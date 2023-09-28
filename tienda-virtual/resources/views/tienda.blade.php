@@ -8,8 +8,16 @@
     <title>Tienda_Virtual</title>
 </head>
 <body>
-    <h1 class="border" >pagina de la tienda</h1>
-    <h2 class="font">otro titulo </h2>
-    <h3 id="prueba" > holaaaaa</h3>
+    
+    <section class="screem ">
+        <div class="widthFull heightFull justifyCenter cardPrincipal bg_image">
+            <div class="cardPrincipal_Titulo textAzure bold">titulo empresa</div>
+            <div class="cardPrincipal_Descripcion textAzure bold" >Disfruta con tu <span class ="textOrange">familia</span></div>
+            <!-- esto tendria que ser un componente reutilizable  -->
+            <x-button>
+               <p class="semiBold">Revisa la carta</p>
+            </x-button>
+        </div>
+    </section>
 </body>
 </html>
