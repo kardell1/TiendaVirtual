@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- esto es para generar los estilos , por alguna razon no me jala los estilos desde la carpeta css , y los busca dentro de la carpeta public , entonces es mejor dejarlo declarado desde ahi o meterlo en alguna carpeta quizas  -->
-    <link rel="stylesheet" href="{{ asset('estilos.css') }}">
-    <title>Tienda_Virtual</title>
-</head>
-<body>
-    
-    <section class="screem ">
+<x-page>
+<section class="screem ">
         <div class="widthFull heightFull justifyCenter cardPrincipal bg_image">
             <div class="cardPrincipal_Titulo textAzure bold">Pizza planeta</div>
+            <div class="cardRuta pIcon  ">
+                <a class="textAzure bold underline font05em linkHover " href="{{route('ruta_prueba')}}">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
             <div class="cardPrincipal_Descripcion textAzure bold" >Disfruta con tu <span class ="textOrange">familia</span></div>
             <!-- esto tendria que ser un componente reutilizable  -->
             <x-button>
@@ -110,13 +105,24 @@
         </div>
     </section>
     <footer>
-        <div class=" bg_image textAzure padding flex colum gap10">
-            <div>ubicacion</div>
-            <div>gmail</div>
-            <div>celular</div>
-            <div>facebook</div>
-            <div>ayuda</div>
+        <div class=" bg_image semiBold textAzure padding flex colum gap10">
+            <div class="linkHover flex items alignCenter gap10 widthMax"> 
+                <i class="fa-solid fa-map-location-dot"></i>
+                <p>ubicacion : Cañada strongest #3456</p>
+            </div>
+            <div class="linkHover flex items alignCenter gap10 widthMax">
+                <i class="fa-solid fa-envelope"></i> 
+                <p>gmail : PizzaPlaneta@gmail.com</p>
+            </div>
+            <div class="linkHover flex items alignCenter gap10 widthMax"> 
+                <i class="fa-solid fa-phone-volume"></i> 
+                <p>celular : +591 665 432 65</p>
+            </div>
+            <div class="linkHover flex items alignCenter gap10 widthMax"> 
+                <i class="fa-brands fa-square-facebook"></i>
+                <p>facebook : PizzaPlanetaBo</p>
+            </div>
+            
         </div>
     </footer>
-</body>
-</html>
+</x-page>

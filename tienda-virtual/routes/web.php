@@ -19,4 +19,7 @@ Route::get('/', function () {
 
 Route::get('/FirstPage' , function(){
     return view('tienda');
-});
+})->name('Dash');
+Route::get('/LoginPage' , function(){
+    return view('login');
+})->name('ruta_prueba');

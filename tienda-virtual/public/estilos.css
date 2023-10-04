@@ -10,11 +10,23 @@
 .font{
     font-size: 50px;
 }
+.font2em{
+    font-size: 2em;
+}
+.font05em{
+    font-size: 1.5em;
+}
+.font3em{
+    font-size: 3em;
+}
 .screem{
     height: 100vh;
 }
 .widhtFull{
     width: 100%;
+}
+.widthMax{
+    width: max-content;
 }
 .heightFull{
     height: 100%;
@@ -25,6 +37,15 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+.cardRuta{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-right: 10px;
+
 }
 .cardPrincipal_Titulo{
     position: absolute;
@@ -57,7 +78,7 @@
 }
 .button button{
     background-color: rgb(248, 130, 41);
-    font-weight: 500;
+    font-weight: 900;
     padding: 10px;
     border: none;
     font-size: 1em;
@@ -112,6 +133,39 @@
 .padding{
     padding: 30px;
 }
+.padding2{
+    padding: 50px;
+}
+.px1Em{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pIcon{
+    padding-top: .6em;
+    padding-right: .6em;
+}
+.px2Em{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.py1Em{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.py05Em{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.px05Em{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.py2Em{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 .py{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -163,4 +217,20 @@
 }
 .scale:hover{
     transform: scale(1.1);
+}
+.buttonBg button:hover{
+    background-color: blue;
+}
+
+.linkHover:hover{
+    color: orange;
+}
+.underline{
+    text-decoration: none;
+}
+.borderNone{
+    border: none;
+}
+.bgNone{
+    background: none;
 }
