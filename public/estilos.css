@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.border{
+    border: solid;
+    
+    border-color: aqua;
+}
+.font{
+    font-size: 50px;
+}
+.font2em{
+    font-size: 2em;
+}
+.font05em{
+    font-size: 1.5em;
+}
+.font3em{
+    font-size: 3em;
+}
+.screem{
+    height: 100vh;
+}
+.widhtFull{
+    width: 100%;
+}
+.widthMax{
+    width: max-content;
+}
+.heightFull{
+    height: 100%;
+}
+.cardPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cardRuta{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.cardPrincipal_Titulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardPrincipal_Descripcion{
+    font-size: 3.5em;
+    font-weight: 600;
+}
+.textAzure{
+    color: azure;
+}
+.textOrange{
+    color: rgb(248, 130, 41);
+}
+.bold{
+    font-weight: 900;
+}
+.semiBold{
+    font-weight: 600;
+    
+}
+/* posible cambion de propiedad del 10% */
+.button{
+    margin-bottom: 10%;
+}
+.button button{
+    background-color: rgb(248, 130, 41);
+    font-weight: 900;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+}
+.positionRel{
+    position: relative;
+}
+.positionAbs{
+    position: absolute;
+}
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 0;
+}
+.left{
+    left: 0;
+}
+.bg_image{
+    background-image: url(./Images/PizzaPlaneta.jpg);
+    background-size: contain;
+}
+.bg_image2{
+    background-image: url(./Images/pizaas.jpeg);
+    background-size: contain;
+}
+
+.wrap{
+    word-wrap: break-word;
+}
+.flex{
+    display: flex;
+}
+.colum{
+    flex-direction: column;
+}
+.w50{
+    width: 50%;
+}
+.w80{
+    width: 80%;
+}
+.wMax{
+    max-width: 60%;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.padding{
+    padding: 30px;
+}
+.padding2{
+    padding: 50px;
+}
+.px1Em{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pIcon{
+    padding-top: .6em;
+    padding-right: .6em;
+}
+.px2Em{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.py1Em{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.py05Em{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.px05Em{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.py2Em{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.py{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.py_40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+        
+}
+.heightMax{
+    height: max-content;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.gap{
+    gap: 40px;
+}
+.gap20{
+    gap: 20px;
+}
+
+.gap10{
+    gap: 10px;
+}
+.bg_Transparent{
+    background-color: rgba(240, 248, 255, 0.149);
+}
+
+.bg_black{
+    background-color: rgba(1, 1, 1, 0.311);
+}
+.radius{
+    border-radius: 20px;
+}
+.textCenter{
+    text-align: center;
+}
+.prueba{
+    transition: transform 0.3s ease;
+    width: 250px;
+    height: 250px;
+}
+.lineHeight{
+    line-height: 1.7;
+}
+.scale{
+    scale: 1;
+}
+.scale:hover{
+    transform: scale(1.1);
+}
+.buttonBg button:hover{
+    background-color: blue;
+}
+
+.linkHover:hover{
+    color: orange;
+}
+.underline{
+    text-decoration: none;
+}
+.borderNone{
+    border: none;
+}
+.bgNone{
+    background: none;
+}
