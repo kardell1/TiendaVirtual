@@ -121,7 +121,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="css/img/bg-img/abaout.jpg" alt="">
+                        <img src="css/img/bg-img/Dron.jpeg" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="about-us-content">
                         <span>Drones de Entrega</span>
-                        <p>Somos una pizzería familiar que nació en el año 2010 con el sueño de ofrecer las mejores pizzas artesanales de la ciudad. Nuestra pasión por la calidad y el sabor nos ha llevado a elaborar nuestras propias masas, salsas y quesos, utilizando ingredientes frescos y locales. Nuestro menú incluye una variedad de pizzas clásicas y especiales, así como ensaladas, pastas, postres y bebidas. Contamos con un ambiente acogedor y un servicio amable y rápido. Queremos que nuestros clientes se sientan como en casa y disfruten de una experiencia gastronómica inolvidable. Te invitamos a visitarnos y a probar nuestras deliciosas pizzas. ¡Te esperamos!</p>
+                        <p>Nuestra pizzería ha dado un giro innovador a la entrega de pizzas al utilizar drones. Esto se traduce en entregas más rápidas y eficientes, al mismo tiempo que reduce la huella de carbono. Los drones aseguran que las pizzas lleguen calientes y en tiempo récord, evitando problemas de tráfico. Esto no solo mejora la experiencia del cliente, sino que también contribuye a la sostenibilidad ambiental al disminuir las emisiones de CO2 y el uso de recursos. Únete a nuestra revolución en la industria de la pizza para disfrutar de entregas más rápidas y amigables con el medio ambiente.</p>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
                     <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="css/img/bg-img/abaout.jpg" alt="">
+                        <img src="css/img/bg-img/Horno.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
@@ -152,7 +152,7 @@
                     </div>
                     <div class="about-us-content">
                         <span>Hornos electricos</span>
-                        <p>Somos una pizzería familiar que nació en el año 2010 con el sueño de ofrecer las mejores pizzas artesanales de la ciudad. Nuestra pasión por la calidad y el sabor nos ha llevado a elaborar nuestras propias masas, salsas y quesos, utilizando ingredientes frescos y locales. Nuestro menú incluye una variedad de pizzas clásicas y especiales, así como ensaladas, pastas, postres y bebidas. Contamos con un ambiente acogedor y un servicio amable y rápido. Queremos que nuestros clientes se sientan como en casa y disfruten de una experiencia gastronómica inolvidable. Te invitamos a visitarnos y a probar nuestras deliciosas pizzas. ¡Te esperamos!</p>
+                        <p>Los hornos eléctricos inteligentes han transformado la forma en que cocinamos. Estos dispositivos avanzados hacen que cocinar sea más preciso y conveniente, adecuados tanto para principiantes como para chefs experimentados. Con características como control remoto y programas de cocción personalizados, ofrecen una experiencia culinaria emocionante. Además, son eficientes en el uso de energía, promoviendo la sostenibilidad. Únete a la revolución culinaria con los hornos eléctricos inteligentes y descubre una forma más inteligente y deliciosa de cocinar.</p>
                     </div>
                 </div>
             </div>
@@ -190,33 +190,33 @@
                         <h2>Menú de la Pizzeria</h2>
                     </div>
                     <!-- btn -->
-                    <a href="menu.html" class="btn caviar-btn"><span></span>Ver Menu</a>
+                    <a href="menu.html" class="btn caviar-btn"><span></span>Menú</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="css/img/menu-img/pizza1.png" alt="">
+                        <img src="css/img/menu-img/Carnivora.png" alt="">
                         <div class="dish-info">
-                            <h6 class="dish-name">Hawaiana</h6>
+                            <h6 class="dish-name">Carnivora</h6>
                             <p class="dish-price">85 Bs</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
-                        <img src="css/img/menu-img/pizza2.png" alt="">
+                        <img src="css/img/menu-img/Margarita.png" alt="">
                         <div class="dish-info">
-                            <h6 class="dish-name">Carnivora</h6>
+                            <h6 class="dish-name">Margarita</h6>
                             <p class="dish-price">80 Bs</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1.5s">
-                        <img src="css/img/menu-img/pizza3.png" alt="">
+                        <img src="css/img/menu-img/Cuatro_Quesos.png" alt="">
                         <div class="dish-info">
-                            <h6 class="dish-name">Napolitana</h6>
+                            <h6 class="dish-name">Cuatro Quesos</h6>
                             <p class="dish-price">120 Bs</p>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="css/img/menu-img/pizza1.png" alt="">
+                        <img src="css/img/menu-img/Hawaiana.png" alt="">
                         <div class="dish-info">
                             <h6 class="dish-name">Hawaiana</h6>
                             <p class="dish-price">85 Bs</p>
@@ -238,16 +238,16 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
-                        <img src="css/img/menu-img/pizza2.png" alt="">
+                        <img src="css/img/menu-img/Cuatro_Estaciones.png" alt="">
                         <div class="dish-info">
-                            <h6 class="dish-name">Carnivora</h6>
-                            <p class="dish-price">80 Bs</p>
+                            <h6 class="dish-name">Cuatro Estaciones</h6>
+                            <p class="dish-price">85 Bs</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1.5s">
-                        <img src="css/img/menu-img/pizza3.png" alt="">
+                        <img src="css/img/menu-img/Napolitana.png" alt="">
                         <div class="dish-info">
                             <h6 class="dish-name">Napolitana</h6>
                             <p class="dish-price">120 Bs</p>

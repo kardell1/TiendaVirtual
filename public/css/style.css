@@ -798,12 +798,12 @@ li {
     font-size: 150px;
     inset-inline-end: -10%;
     margin: 0;
-    content: 'Special';
+    content: 'Menú';
     line-height: 1;
     inset-block-start: 35%;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    color: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.09);
     font-weight: 700;
 }
 
@@ -890,7 +890,6 @@ li {
 .caviar-dish-menu .row .col-12:first-child .caviar-single-dish:before {
     position: absolute;
     block-size: 100%;
-    background-image: url(img/core-img/special-dots.png);
     inline-size: calc(100% - 50px);
     content: '';
     inset-block-start: -50px;
